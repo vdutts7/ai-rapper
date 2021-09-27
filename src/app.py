@@ -14,6 +14,8 @@ from video_generation.video_generator import generate_video
 app = tk.Tk()
 app.geometry("800x600")  
 app.title("AI Rapper")
+ctk.set_appearance_mode("dark")
+
 
 # Frames
 bf = tk.Frame()
@@ -22,7 +24,14 @@ pf = tk.Frame()
 pf.pack(padx=8, pady=8)
 
 
-# Buttons- fixed 
+# Entries
+l = ctk.CTkEntry(height=300, width=620, text_font=("Roboto", 18), text_color="blue", fg_color="grey")
+l.pack()
+p = ctk.CTkEntry(pf, height=60, width=450, text_font=("Roboto", 18), text_color="blue", fg_color="grey")
+p.pack(side='left', padx=8)
+
+
+# Buttons (working)
 gen_audio_btn = ctk.CTkButton(bf, height=60, width=180, text_font=("Roboto", 18), text_color="blue", text="Create rap 🔥", command=generate_audio_and_save)
 gen_audio_btn.pack(side='left', padx=8)
 play_audio_btn = ctk.CTkButton(bf, height=60, width=180, text_font=("Roboto", 18), text_color="blue", text="Hear rap audio 🎧", command=play_generated_audio)

@@ -21,6 +21,15 @@ bf.pack()
 pf = tk.Frame()
 pf.pack(padx=8, pady=8)
 
+# Buttons
+gen_audio_btn = ctk.CTkButton(bf, height=60, width=180, text_font=("Roboto", 18), text_color="blue", text="Create rap 🔥", command=generate_audio_and_save)
+gen_audio_btn.pack(side='left', padx=8)
+play_audio_btn = ctk.CTkButton(bf, height=60, width=180, text_font=("Roboto", 18), text_color="blue", text="Hear rap audio 🎧", command=play_generated_audio)
+play_audio_btn.pack(side='left', padx=8)
+gen_text_btn = ctk.CTkButton(pf, height=60, width=180, text_font=("Roboto", 18), text_color="blue", text="Create lyrics ✒️", command=generate_text_and_update_lyrics)
+gen_video_btn = ctk.CTkButton(bf, height=60, width=180, text_font=("Roboto", 18), text_color="blue", text="Create video 🎥", command=generate_video)
+
+
 # Functions
 def generate_text_and_update_lyrics():
     gr = generate_text(p.get())
@@ -34,3 +43,6 @@ def play_generated_audio():
     if os.path.exists('generated_audio.wav'):
         player = vlc.MediaPlayer(os.path.abspath('generated_audio.wav'))
         player.play()
+
+# Run app
+app.mainloop()

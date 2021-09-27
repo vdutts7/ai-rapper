@@ -9,4 +9,4 @@ def generate_text(prompt):
     attn_mask = torch.ones_like(tokens)
     out = model.generate(tokens, attention_mask=attn_mask, num_beams=5, early_stopping=True, max_length=250, no_repeat_ngram_size=2)
     rap = tokenizer.decode(out[0])
-    return out
+    return rap

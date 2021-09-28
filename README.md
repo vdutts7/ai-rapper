@@ -102,7 +102,10 @@ Time - ffmpeg add audio: 15.704241514205933
 finish image2image gen
 examples/test_pred_fls_tmpx_swo6p1eminem_00_audio_embed.mp4
 ```
-
+<video width="320" height="240" controls>
+  <source src="https://res.cloudinary.com/dnz16usmk/video/upload/v1708870234/test_pred_fls_tmpx_swo6p1eminem3_audio_embed_kawjx8.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
 ## 🔧Tools Used

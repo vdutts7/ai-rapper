@@ -103,10 +103,8 @@ finish image2image gen
 examples/test_pred_fls_tmpx_swo6p1eminem_00_audio_embed.mp4
 ```
 
-<video width="320" height="240" controls>
-  <source src="https://res.cloudinary.com/dnz16usmk/video/upload/v1708870234/test_pred_fls_tmpx_swo6p1eminem3_audio_embed_kawjx8.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![video][video]][video-url]
+
 
 
 ## 🔧Tools Used
@@ -186,6 +184,8 @@ alt="CUDA Toolkit"
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
+[video]: https://img.shields.io/badge/▶️see_video-FFCA28?style=for-the-badge&color=black
+[video-url]: https://res.cloudinary.com/dnz16usmk/video/upload/v1708870234/test_pred_fls_tmpx_swo6p1eminem3_audio_embed_kawjx8.mp4
 [email]: https://img.shields.io/badge/me@vd7.io-FFCA28?style=for-the-badge&logo=Gmail&logoColor=00bbff&color=black
 [email-url]: #
 [github]: https://img.shields.io/badge/Github-2496ED?style=for-the-badge&logo=github&logoColor=white&color=black

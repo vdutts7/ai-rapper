@@ -57,7 +57,7 @@
 
 - **Clone MakeItTalk (for video generation)** `https://github.com/adobe-research/MakeItTalk/` into root directory of `ai-rapper`
 - Add a strictly **256 x 256** image of rapper in `MakeItTalk/examples`. Face should be clear and un-obstructed. Ex: `MakeItTalk/examples/eminem.png`
-- Add an audio **.wav** file ( ~ 10-30 sec) of rapper in a separate directory of `audio_samples` i.e.`audio_samples/eminem.wav`
+- Add an audio **.wav** file ( ~ 10-30 sec) of rapper in a separate directory of `audio_samples` i.e.`audio_samples/eminem_00.wav`
 
 ### Install dependencies and run
 

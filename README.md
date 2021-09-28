@@ -103,6 +103,8 @@ finish image2image gen
 examples/test_pred_fls_tmpx_swo6p1eminem_00_audio_embed.mp4
 ```
 
+<img src="https://res.cloudinary.com/dnz16usmk/image/upload/v1708922675/eminem-preview.png" alt="video preview"  />
+
 [![video][video]][video-url]
 
 

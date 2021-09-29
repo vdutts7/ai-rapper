@@ -167,7 +167,7 @@ alt="CUDA Toolkit"
 
 **MakeItTalk** 
 - Open-source Github repo used for video synthesis, harnessing OpenCV and FFMPEG
-- Demo: `MakeItTalk/official_demo_make_it_talk.ipynb` 
+- Demo: `https://github.com/yzhou359/MakeItTalk/blob/main/quick_demo_tdlr.ipynb` 
 
 **OpenCV**
 - used to segment facial features in input image and lip-sync to audio

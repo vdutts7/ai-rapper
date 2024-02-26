@@ -1,4 +1,4 @@
-aiohttp==3.8.3
+aiohttp==3.9.2
 aiosignal==1.2.0
 appdirs==1.4.4
 asttokens==2.0.8
